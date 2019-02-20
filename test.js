@@ -1,6 +1,6 @@
 var Module = ( function() {
   var _foo = function() {
-    alert( "Tesssst 23456" );
+    alert( "Tesssst 234522222226" );
   };
   
   return {
