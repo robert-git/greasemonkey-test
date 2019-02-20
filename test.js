@@ -1,3 +1,9 @@
 var Module = ( function() {
-  alert( "Tesssst" );
+  var _foo = function() {
+    alert( "Tesssst" );
+  };
+  
+  return {
+    doIt : _foo
+  };
 } )();
