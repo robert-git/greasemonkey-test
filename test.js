@@ -8,4 +8,7 @@ var Module = ( function() {
   };
 } )();
 
-module.exports.Module = Module;
+if ( module )
+{
+  module.exports.Module = Module;
+}
