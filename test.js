@@ -7,5 +7,3 @@ var Module = ( function() {
     doIt : _foo
   };
 } )();
-
-module.exports = Module;
