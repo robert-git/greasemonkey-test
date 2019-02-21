@@ -8,7 +8,8 @@ var Module = ( function() {
   };
 } )();
 
-if ( module )
+// module.exports is available only when testing in nodejs:
+if ( typeof module !== 'undefined' && typeof module.exports !== 'undefined' )
 {
   module.exports.Module = Module;
 }
